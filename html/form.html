@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cliente</title>
+</head>
+<body>
+    <h1> Clinte Formulario</h1>
+    <form action="processa.php" method="POST">
+            <div> 
+            <label for="name">Nome</label>
+            <input type="text" id="name" name="name" placeholder=" nome ">
+
+            </div>
+            <div> 
+                <label for="sobrenome">Sobrenome</label>
+                <input type="text" id="sobrenome" name="sobrenome" placeholder=" Sobrenome ">
+    
+            </div>
+            <div> 
+              <label for="date"> Data de Nascimento</label>
+              <input type="date" id="dataNascimento" name="dataNascimento">
+    
+            </div>
+            <div> 
+                <label for="telefone"> Telefone</label>
+                <input type="tel" id="telefone" name="telefone">
+      
+              </div>
+            
+            <div> 
+                <label for="name">Email</label>
+                <input type="text" id="name" name="name" placeholder="12345@1234.com">
+    
+            </div>
+            <div> 
+                <label for="senha">Senha</label>
+                <input type="password" id="senha" name="senha" placeholder="Digite sua Senha aqui">
+    
+            </div>
+            <div>
+                <input type="radio" id="funcionario" name="funcionario" value="funcionario">
+                <label for="func">Funcionario</label><br>
+            </div>
+            <div>
+                <input type="radio" id="masculino" name="masculino" value="masculino">
+                <label for="male">Masculino</label><br>
+                <input type="radio" id="feminino" name="feminino" value="feminino">
+                <label for="female">Feminino</label><br>
+                <input type="radio" id="outros" name="outros" value="outros">
+                <label for="other">Outros</label><br>
+                <input type="radio" id="naoInform" name="naoInform" value="naoInform">
+                <label for="other">Prefiro não informar </label>
+            </div>
+
+            <div>
+            
+                <input type="submit" value="Enviar Formulario">
+            </div>   
+
+    </form>
+    
+</body>
+</html>
